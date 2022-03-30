@@ -1,0 +1,150 @@
+nav{
+    background-color: purple;
+    color: pink;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    font-size: 27px;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: yellow;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    margin: 12px;
+    background-color: yellow;
+    
+}
+.box{
+    border: 2px solid black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.box:hover{
+    background-color: rgb(235, 235, 155);
+    cursor: pointer;
+}
+img{
+    width: 0;
+}
+img .imgbox{
+    width: 0;
+    transition: ease-in-out;
+}
+.gameInfo h1{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.br{
+    border-right: 0;
+}
+.bl{
+    border-left: 0;
+}
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.btn{
+    padding: 8spx;
+    background-color: black;
+    color: yellow;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: orange;
+    color: yellowgreen;
+    transform: scale(1.08);
+}
+.gameInfo span{
+    font-size: 4rem;
+}
+.gameInfo{
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    width: 100%;
+    background-color: grey;
+    color: white;
+    margin: 0;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.contact span{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.contact a{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.contact a:hover{
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 646px) {
+    .gameInfo h1{
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 10vw);
+        grid-template-rows: repeat(3, 10vw);
+        margin: 12px;
+        background-color: yellow;
+        margin-top: 100px;
+        
+    }
+    
+    .game-container{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color: yellow;
+        flex-direction: column;
+        height: 400px;
+    }
+    .contact{
+        height: 500px;
+        width: 100%;
+        background-color: grey;
+        color: white;
+        margin: 0;
+    }
+    .box{
+       font-size: 1.5rem;
+    }
+
+  }
