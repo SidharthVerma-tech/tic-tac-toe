@@ -40,12 +40,10 @@ nav ul{
     background-color: rgb(235, 235, 155);
     cursor: pointer;
 }
-img{
+.imgbox img{
     width: 0;
-}
-img .imgbox{
-    width: 0;
-    transition: ease-in-out;
+    transition: width 1s ease-in-out;
+
 }
 .gameInfo h1{
     font-family: 'Fredoka One', cursive;
@@ -102,6 +100,9 @@ h3{
     font-family: 'Fredoka One', cursive;
     font-family: 'Poppins', sans-serif;
 }
+.info{
+    margin: 30px;
+}
 .contact a{
     text-decoration: none;
     font-family: 'Fredoka One', cursive;
@@ -111,6 +112,9 @@ h3{
 .contact a:hover{
     background-color: white;
     color: black;
+}
+#reset{
+    font-size: 2rem;
 }
 @media only screen and (max-width: 646px) {
     .gameInfo h1{
